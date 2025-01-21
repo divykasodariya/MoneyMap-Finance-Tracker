@@ -86,11 +86,11 @@ function updateprevioustran() {
   let income_counter = 0;
   let expense_counter = 0;
   let i = transactions.length - 1;
-  if(i+1<6) {
-    console.log("not enough data");
-    return;
+  // if(i+1<6) {
+  //   console.log("not enough data");
+  //   return;
     
-  }
+  // }
   while (income_counter < 3 && i >= 0) {
     if (transactions[i].type === 1) {
       let incomeTitleElement = document.querySelector(`.income-title-${income_counter}`);
