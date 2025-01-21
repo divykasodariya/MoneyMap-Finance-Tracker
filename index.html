@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MoneyMap</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&family=Playwrite+CU:wght@100..400&display=swap"
+    rel="stylesheet">
+  <link  rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">MoneyMap</header>
+  <div class="budget-container">
+    ₹ <div class="budget-amount"> 0</div>
+  </div>
+
+  <div class="transaction-history">
+    <div class="bordeer">
+      <div class="income-history">
+        <table>
+          <tr>
+            <th>Income</th>
+            <th>Amount</th>
+
+          </tr>
+
+          <tr>
+            <td class="income-title-0"> -</td>
+            <td class="income-value-0"> -</td>
+          </tr>
+          <tr>
+            <td class="income-title-1"> -</td>
+            <td class="income-value-1"> -</td>
+          </tr>
+          <tr>
+            <td class="income-title-2"> -</td>
+            <td class="income-value-2"> -</td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+    <div class="expense-history">
+      <table>
+        <tr>
+          <th>Expense</th>
+          <th>Amount</th>
+        </tr>
+        <tr>
+          <td class="expense-title-0"> -</td>
+          <td class="expense-value-0"> -</td>
+        </tr>
+        <tr>
+          <td class="expense-title-1"> -</td>
+          <td class="expense-value-1"> -</td>
+        </tr>
+        <tr>
+          <td class="expense-title-2"> -</td>
+          <td class="expense-value-2"> -</td>
+        </tr>
+
+
+
+
+      </table>
+    </div>
+  </div>
+  <div class="button-container">
+    <button class="buttonn">
+      ADD
+    </button>
+</div>
+<div class="card">
+  <div class="card-header">
+    <button class="expense-button">Expense</button>
+    <button class="income-button">Income</button>
+  </div>
+  <div class="card-body">
+    <table class="input-table">
+      <tr>
+        <th>Title</th>
+        <td><input type="text" class="transaction-title-input" placeholder="e.g., Food, Rent" /></td>
+      </tr>
+      <tr>
+        <th>Rupees (₹)</th>
+        <td><input type="number" class="rupees-input" placeholder="Enter amount" /></td>
+      </tr>
+    </table>
+    <button class="submit-button">Submit</button>
+  </div>
+</div>
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+  
+
+</html>
